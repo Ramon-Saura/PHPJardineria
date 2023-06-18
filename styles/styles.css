@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: #020202;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.header-login_button{
+    position: absolute;
+    right: 1rem;
+    background: transparent;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    padding: 0.5rem;
+    color: #fff;
+}
+
+.login{
+    min-height: 80vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.login-title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.login-input label{
+    padding-bottom: 0.5rem;
+}
+
+.login-button{
+    display: flex;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.app-button{
+    background-color: #020202;
+    padding: 0.5rem;
+    color: #fff;
+    border: 1px solid #020202;
+    box-shadow: 0 0 5px rgba(2, 2, 2, 0.5);
+}
+
+.app-button:hover{
+    color: rgb(237, 57, 57);
+    box-shadow: 0 0 10px rgba(237, 57, 57, 0.5);
+}
+
+.footer{
+    background-color: #020202;
+    color: #fff;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
