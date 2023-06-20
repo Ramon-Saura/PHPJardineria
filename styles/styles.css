@@ -23,6 +23,13 @@ body{
     position: relative;
 }
 
+.header-title{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
 .header-login_button{
     position: absolute;
     right: 1rem;
@@ -79,6 +86,17 @@ body{
     color: rgb(237, 57, 57);
     box-shadow: 0 0 10px rgba(237, 57, 57, 0.5);
 }
+
+
+/**CALENDAR CSS**/
+
+.fc {
+    padding: 0.5rem 0;
+    min-height: 80vh;
+    width: 90vw;
+}
+
+/**END CALENDAR CSS**/
 
 .footer{
     background-color: #020202;
