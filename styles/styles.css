@@ -40,6 +40,25 @@ body{
     color: #fff;
 }
 
+.menu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    background-color: rgb(2, 2, 2);
+    right: 0;
+    z-index: 99;
+    padding: 1rem 2rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+}
+
 .login{
     min-height: 80vh;
 }
@@ -85,6 +104,67 @@ body{
 .app-button:hover{
     color: rgb(237, 57, 57);
     box-shadow: 0 0 10px rgba(237, 57, 57, 0.5);
+}
+
+.task-form{
+    padding-bottom: 1rem;
+}
+
+.button{
+    width: 70vw;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1rem !important;
+    margin: 1rem 0;
+    border: 2px solid rgba(26, 26, 65) !important;
+    background-color: rgba(26, 26, 65);
+    color: #fff !important;
+}
+
+.task-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.task-form h2{
+    padding: 1rem 0;
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(26, 26, 65);
+    color: #fff;
+}
+
+.task-form form label{
+    display: flex;
+    width: 70vw;
+    justify-content: flex-start;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgb(26, 26, 65);
+}
+
+.task-form form input, textarea, select{
+    display: flex;
+    width: 70vw;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(60, 60, 80, 0.5);
+    color: rgba(26, 26, 65);
+}
+
+.form-checkbox{
+    display: flex;
+    width: 70vw;
+    align-items: center;
+}
+
+.form-checkbox input{
+    margin-bottom: 0 !important;
 }
 
 
