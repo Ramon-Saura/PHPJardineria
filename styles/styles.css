@@ -121,6 +121,94 @@ body{
     color: #fff !important;
 }
 
+.customer-list{
+    width: 100%;
+    min-height: 80vh;
+}
+
+.customer-detail{
+    width: 100%;
+    min-height: 80vh;
+}
+
+.header-detail{
+    width: 100%;
+}
+
+.header-details{
+    padding: 2rem 2rem 0.5rem 2rem ;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header-details a{
+    padding: 1rem;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(26, 26, 65, 0.5);
+}
+
+.header-details a:visited{
+    color: orange;
+}
+
+.header-details i{
+    padding: 0 1rem 0 0;
+    color: rgb(26, 26, 65);
+}
+
+.header-list{
+    width: 100% !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(26, 26, 65);
+    color: #fff;
+}
+
+.header-detail{
+    width: 100% !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(26, 26, 65);
+    color: #fff;
+}
+
+.header-list_button{
+    position: absolute;
+    right: 1rem;
+    padding: 0.05rem 0.5rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header-detail_button{
+    position: absolute;
+    right: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-list_customers{
+    display: flex;
+    justify-content: center;
+}
+
+.header-list_customers button{
+    padding: 1.5rem 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0.25rem;
+    width: 70vw;
+}
+
 .task-form form{
     display: flex;
     flex-direction: column;
