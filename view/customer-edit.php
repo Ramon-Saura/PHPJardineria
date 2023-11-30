@@ -22,6 +22,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/weave/db/db_customers.php');
         <input type="text" value="<?php echo $customer[0]['customer_mail']; ?>" name="mail" />
     </div>
     <div class="header-details">
+    <i class="bi bi-plus-circle-fill"></i>
+        <button class="button_save" onclick="addAddressForm()">Add Address</button>
+    </div>
+    <div id="add-address_container"></div>
+    <div class="header-details">
         <i class="bi bi-arrow-up-circle-fill"></i>
         <input type="text" hidden readonly value="<?php echo $customer[0]['customer_id']; ?>" name="id" />
         <input class="button_save" type="submit" value="Save" name="save" />
